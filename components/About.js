@@ -9,8 +9,8 @@ import {
 export default class About extends Component<{}> {
     render() {
         return (
-            <View>
-                <Text>A propos de Foohachi</Text>
+            <View style = {style.view} >
+                <Text style = {style.title} >A propos de Foohachi</Text>
                 <Text>
                         Lorem trium sententiarum nulli prorsus assentior.
                         Haec subinde Constantius audiens et quaedam
@@ -22,3 +22,13 @@ export default class About extends Component<{}> {
         );
     }
 }
+
+const style = StyleSheet.create({
+    view: {
+        margin: 20
+    },
+    title: {
+        fontSize: 22, 
+        marginBottom: 20
+    }
+})
