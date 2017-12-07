@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import {
-    Platform, 
     StyleSheet,
     Text,
-    View
+    View,
   } from 'react-native';
 
 export default class About extends Component<{}> {
@@ -18,6 +17,7 @@ export default class About extends Component<{}> {
                         Mensarum enim voragines et varias voluptatum
                         Sed (saepe enim redeo ad Scipionem, cuius omnis
                 </Text>
+
             </View>
         );
     }
