@@ -4,7 +4,7 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 // import {
 //   Platform, 
@@ -13,7 +13,8 @@ import React, { Component } from 'react';
 //   View
 // } from 'react-native';
 
-import About from './components/About';
+import About from './components/About'
+import Search from './components/Search'
 
 // const instructions = Platform.select({
 //   ios: 'Press  Cmd+R to reload,\n' +
@@ -25,7 +26,7 @@ import About from './components/About';
 export default class App extends Component<{}> {
   render() {
     return (
-      <About />
+      <Search />
     );
   }
 }
